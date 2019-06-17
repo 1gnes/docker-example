@@ -6,7 +6,7 @@ VOLUME /tmp
 
 EXPOSE 8080
 
-ARG JAR_FILE=target/docker-0.0.1-SNAPSHOT.jar
+ARG JAR_FILE=target/docker-demo-0.0.1-SNAPSHOT.jar
 
 ADD ${JAR_FILE} docker-demo.jar
 
